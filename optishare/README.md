@@ -108,13 +108,6 @@ For 10GB+ daily traffic, enable optional services in `.env.local`:
 | `CDN_URL` | CloudFront/Cloudflare CDN for downloads |
 | `FILE_TTL_HOURS` | Expiration window (1–24+) |
 
-## Deploy to GitHub / Vercel
-
-This repo is designed to be pushed to GitHub as-is:
-
-1. `git init && git add . && git commit -m "Initial OptiShare"`
-2. Create a GitHub repo and push
-3. For live hosting, deploy to [Vercel](https://vercel.com) — note that serverless has file size/time limits; for heavy processing use a VPS or Docker with persistent `storage/` volume
 
 ## Tech Stack
 
